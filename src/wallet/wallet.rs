@@ -17,4 +17,15 @@ impl Wallet {
             address,
         }
     }
+    pub fn get_address(&self) -> Address {
+        self.address
+    }
+
+    pub fn get_public_key(&self) -> PublicKey {
+        self.public
+    }
+
+    pub fn get_secret_key(&self) -> SecretKey {
+        self.secret
+    }
 }
